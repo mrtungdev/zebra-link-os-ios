@@ -1,1 +1,1 @@
-../../../../../ZebraSDK/Classes/ToolsUtil.h
+../../../ZebraSDK/ZebraSDK/Classes/ToolsUtil.h

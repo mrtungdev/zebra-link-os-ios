@@ -1,1 +1,1 @@
-../../../../../ZebraSDK/Classes/ZebraPrinter.h
+../../../ZebraSDK/ZebraSDK/Classes/ZebraPrinter.h

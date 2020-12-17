@@ -1,1 +1,1 @@
-../../../../../ZebraSDK/Classes/ZplPrintMode.h
+../../../ZebraSDK/ZebraSDK/Classes/ZplPrintMode.h

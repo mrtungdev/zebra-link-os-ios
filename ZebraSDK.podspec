@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZebraSDK'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'Link-OS Multiplatform SDK'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,7 @@ Zebra's Link-OS Multiplatform SDK
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'ZebraSDK/Classes/**/*'
+  s.public_header_files = 'ZebraSDK/Classes/**/*.h'
   
   # s.resource_bundles = {
   #   'ZebraSDK' => ['ZebraSDK/Assets/*.png']

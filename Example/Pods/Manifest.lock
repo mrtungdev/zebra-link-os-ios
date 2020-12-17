@@ -1,16 +1,16 @@
 PODS:
-  - ZebraSDK (0.1.0)
+  - ZebraSDK (0.2.0)
 
 DEPENDENCIES:
-  - ZebraSDK (from `../`)
+  - ZebraSDK
 
-EXTERNAL SOURCES:
-  ZebraSDK:
-    :path: "../"
+SPEC REPOS:
+  trunk:
+    - ZebraSDK
 
 SPEC CHECKSUMS:
-  ZebraSDK: 313de95c6eb8a13b25756f4a15bd3b870a462064
+  ZebraSDK: c7bc4ef93feeb13f04792aefa9f6cad69263d205
 
-PODFILE CHECKSUM: 2616d1d8658d9889ed1171dd9f979e5376cb38ee
+PODFILE CHECKSUM: c5286d1df65cf179f0544ecaa5f89351fe2cc966
 
 COCOAPODS: 1.10.0

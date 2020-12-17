@@ -1,1 +1,1 @@
-../../../../../ZebraSDK/Classes/SGD.h
+../../../ZebraSDK/ZebraSDK/Classes/SGD.h

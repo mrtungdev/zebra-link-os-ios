@@ -1,1 +1,1 @@
-../../../../../ZebraSDK/Classes/ZebraErrorCode.h
+../../../ZebraSDK/ZebraSDK/Classes/ZebraErrorCode.h

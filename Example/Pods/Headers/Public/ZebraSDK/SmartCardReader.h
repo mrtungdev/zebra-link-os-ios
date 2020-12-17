@@ -1,1 +1,1 @@
-../../../../../ZebraSDK/Classes/SmartCardReader.h
+../../../ZebraSDK/ZebraSDK/Classes/SmartCardReader.h

@@ -1,1 +1,1 @@
-../../../../../ZebraSDK/Classes/NetworkDiscoverer.h
+../../../ZebraSDK/ZebraSDK/Classes/NetworkDiscoverer.h

@@ -1,1 +1,1 @@
-../../../../../ZebraSDK/Classes/ResponseValidator.h
+../../../ZebraSDK/ZebraSDK/Classes/ResponseValidator.h

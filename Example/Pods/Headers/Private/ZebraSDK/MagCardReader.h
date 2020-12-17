@@ -1,1 +1,1 @@
-../../../../../ZebraSDK/Classes/MagCardReader.h
+../../../ZebraSDK/ZebraSDK/Classes/MagCardReader.h

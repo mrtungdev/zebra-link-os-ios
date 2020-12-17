@@ -1,1 +1,1 @@
-../../../../../ZebraSDK/Classes/TcpPrinterConnection.h
+../../../ZebraSDK/ZebraSDK/Classes/TcpPrinterConnection.h

@@ -1,1 +1,1 @@
-../../../../../ZebraSDK/Classes/MfiBtPrinterConnection.h
+../../../ZebraSDK/ZebraSDK/Classes/MfiBtPrinterConnection.h
