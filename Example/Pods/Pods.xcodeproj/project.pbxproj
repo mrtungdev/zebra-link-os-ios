@@ -72,7 +72,8 @@
 		3A59272D258B47D9006FD388 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
 		3A59272E258B47D9006FD388 /* ToolsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolsUtil.h; sourceTree = "<group>"; };
 		3A59272F258B47D9006FD388 /* ZebraPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraPrinterConnection.h; sourceTree = "<group>"; };
-		3A592737258B4875006FD388 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A5927FE258B57B2006FD388 /* ZebraSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZebraSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A592803258B5803006FD388 /* libZSDK_API.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libZSDK_API.a; path = ../../../ZebraSDK/libZSDK_API.a; sourceTree = "<group>"; };
 		43AE5700E0EFEBB6F4381212DE5CC8D9 /* Pods-ZebraSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZebraSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		48E0F8EC60BC8E7DF61426474AF48693 /* ZebraSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZebraSDK.debug.xcconfig; sourceTree = "<group>"; };
 		4F40E013B1234B9128760B13C7CAA0C8 /* Pods-ZebraSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZebraSDK_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -158,6 +159,7 @@
 		549B69378780D1435D005B6534BFC26E /* ZebraSDK */ = {
 			isa = PBXGroup;
 			children = (
+				3A592803258B5803006FD388 /* libZSDK_API.a */,
 				3A59271C258B47D7006FD388 /* DiscoveredPrinter.h */,
 				3A592721258B47D8006FD388 /* DiscoveredPrinterNetwork.h */,
 				3A592726258B47D8006FD388 /* FieldDescriptionData.h */,
@@ -180,7 +182,7 @@
 				3A592725258B47D8006FD388 /* ZebraPrinterFactory.h */,
 				3A59271E258B47D7006FD388 /* ZplPrintMode.h */,
 				4EE41E1D81912670B659A4DECCE58BE9 /* Support Files */,
-				3A592737258B4875006FD388 /* Runner-Bridging-Header.h */,
+				3A5927FE258B57B2006FD388 /* ZebraSDK-Bridging-Header.h */,
 			);
 			path = ZebraSDK;
 			sourceTree = "<group>";
