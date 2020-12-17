@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = ZebraSDK;
+			productName = ZebraSDK;
 		};
 /* End PBXAggregateTarget section */
 
@@ -45,48 +46,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F1EA68ED0D2AF151C8EE9A9116D8F17 /* Pods_ZebraSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZebraSDK_Example.framework; path = "Pods-ZebraSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1093B2F572454D1618B937F0E3116784 /* SGD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGD.h; path = ZebraSDK/Classes/SGD.h; sourceTree = "<group>"; };
+		0F1EA68ED0D2AF151C8EE9A9116D8F17 /* Pods_ZebraSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZebraSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1221C98618BCFB1732853904A249C25B /* Pods-ZebraSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZebraSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		1259A34F10782F765AD3C7BBFA181594 /* ToolsUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ToolsUtil.h; path = ZebraSDK/Classes/ToolsUtil.h; sourceTree = "<group>"; };
 		140A7F3B7893F7465E78271204822D55 /* Pods-ZebraSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZebraSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		19087FD7FBFEE537CEAC2EE80C8A9E21 /* FileUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FileUtil.h; path = ZebraSDK/Classes/FileUtil.h; sourceTree = "<group>"; };
-		1A45A01BD9D7D41BC66101488E0731E5 /* PrinterStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PrinterStatus.h; path = ZebraSDK/Classes/PrinterStatus.h; sourceTree = "<group>"; };
 		292CC2A1175C89A5010ED3D86C7A152F /* Pods-ZebraSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZebraSDK_Example.modulemap"; sourceTree = "<group>"; };
 		2B1F52CEDA72769C39C7387D11426E09 /* Pods-ZebraSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZebraSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		2C35A51D3236F84D0F9C56A77D0AAACE /* FieldDescriptionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FieldDescriptionData.h; path = ZebraSDK/Classes/FieldDescriptionData.h; sourceTree = "<group>"; };
-		3041A1395796B277DDA582CD56A48952 /* SmartCardReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmartCardReader.h; path = ZebraSDK/Classes/SmartCardReader.h; sourceTree = "<group>"; };
+		3A59271B258B47D7006FD388 /* FormatUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormatUtil.h; sourceTree = "<group>"; };
+		3A59271C258B47D7006FD388 /* DiscoveredPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveredPrinter.h; sourceTree = "<group>"; };
+		3A59271D258B47D7006FD388 /* MfiBtPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MfiBtPrinterConnection.h; sourceTree = "<group>"; };
+		3A59271E258B47D7006FD388 /* ZplPrintMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZplPrintMode.h; sourceTree = "<group>"; };
+		3A59271F258B47D8006FD388 /* PrinterStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterStatus.h; sourceTree = "<group>"; };
+		3A592720258B47D8006FD388 /* NetworkDiscoverer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkDiscoverer.h; sourceTree = "<group>"; };
+		3A592721258B47D8006FD388 /* DiscoveredPrinterNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveredPrinterNetwork.h; sourceTree = "<group>"; };
+		3A592722258B47D8006FD388 /* ZebraPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraPrinter.h; sourceTree = "<group>"; };
+		3A592723258B47D8006FD388 /* ZebraErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraErrorCode.h; sourceTree = "<group>"; };
+		3A592724258B47D8006FD388 /* GraphicsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsUtil.h; sourceTree = "<group>"; };
+		3A592725258B47D8006FD388 /* ZebraPrinterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraPrinterFactory.h; sourceTree = "<group>"; };
+		3A592726258B47D8006FD388 /* FieldDescriptionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldDescriptionData.h; sourceTree = "<group>"; };
+		3A592727258B47D8006FD388 /* TcpPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcpPrinterConnection.h; sourceTree = "<group>"; };
+		3A592728258B47D8006FD388 /* PrinterStatusMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterStatusMessages.h; sourceTree = "<group>"; };
+		3A592729258B47D9006FD388 /* SmartCardReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartCardReader.h; sourceTree = "<group>"; };
+		3A59272A258B47D9006FD388 /* MagCardReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagCardReader.h; sourceTree = "<group>"; };
+		3A59272B258B47D9006FD388 /* ResponseValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseValidator.h; sourceTree = "<group>"; };
+		3A59272C258B47D9006FD388 /* SGD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGD.h; sourceTree = "<group>"; };
+		3A59272D258B47D9006FD388 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
+		3A59272E258B47D9006FD388 /* ToolsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolsUtil.h; sourceTree = "<group>"; };
+		3A59272F258B47D9006FD388 /* ZebraPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraPrinterConnection.h; sourceTree = "<group>"; };
+		3A592737258B4875006FD388 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		43AE5700E0EFEBB6F4381212DE5CC8D9 /* Pods-ZebraSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZebraSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		48E0F8EC60BC8E7DF61426474AF48693 /* ZebraSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZebraSDK.debug.xcconfig; sourceTree = "<group>"; };
-		49B3E6BC6048E8E41D0ACDFCCA1A0119 /* MagCardReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagCardReader.h; path = ZebraSDK/Classes/MagCardReader.h; sourceTree = "<group>"; };
 		4F40E013B1234B9128760B13C7CAA0C8 /* Pods-ZebraSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZebraSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		53B4D31C532B246A32E6C091AFBAE962 /* Pods-ZebraSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZebraSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		561377A99CB26B3A16A6E6628C362B74 /* ZebraErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZebraErrorCode.h; path = ZebraSDK/Classes/ZebraErrorCode.h; sourceTree = "<group>"; };
 		59D11A49FED116E14E8D6BBD41F2BEA2 /* Pods-ZebraSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZebraSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		6C1F71A0C7A2D0C4E5CC920E3A38086F /* Pods_ZebraSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZebraSDK_Tests.framework; path = "Pods-ZebraSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1F71A0C7A2D0C4E5CC920E3A38086F /* Pods_ZebraSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZebraSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7405031D60C08DD0549096A9514A0ABF /* ZebraPrinterConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZebraPrinterConnection.h; path = ZebraSDK/Classes/ZebraPrinterConnection.h; sourceTree = "<group>"; };
 		75DB849EC654E9A9B98681435731AA9C /* Pods-ZebraSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZebraSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		77AECAD2831E5FA65421C6A402215664 /* Pods-ZebraSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZebraSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7BE5E5DD15C931A6B245D9E48B7F8F39 /* TcpPrinterConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TcpPrinterConnection.h; path = ZebraSDK/Classes/TcpPrinterConnection.h; sourceTree = "<group>"; };
-		7FD744367F1355EF56295A4520E2358E /* DiscoveredPrinter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DiscoveredPrinter.h; path = ZebraSDK/Classes/DiscoveredPrinter.h; sourceTree = "<group>"; };
-		832F45D1C4DEDBA1DAF39F1551072549 /* FormatUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FormatUtil.h; path = ZebraSDK/Classes/FormatUtil.h; sourceTree = "<group>"; };
 		8945A67C1B6B28F6C991F7EF1BFC2AB7 /* Pods-ZebraSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZebraSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		97D7366E75D80210FC32BB4391761ACD /* PrinterStatusMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PrinterStatusMessages.h; path = ZebraSDK/Classes/PrinterStatusMessages.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DD7F90373F04B433648E311137ED7DC /* ZebraPrinterFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZebraPrinterFactory.h; path = ZebraSDK/Classes/ZebraPrinterFactory.h; sourceTree = "<group>"; };
-		A217BD1235DED78B52EBB6DCA96DF1FC /* NetworkDiscoverer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetworkDiscoverer.h; path = ZebraSDK/Classes/NetworkDiscoverer.h; sourceTree = "<group>"; };
-		A7DEF42DABAE57BAACC055674C9DE7A9 /* ZebraPrinter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZebraPrinter.h; path = ZebraSDK/Classes/ZebraPrinter.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B0BF69305F76FCFBFDEFD4605FFC6C33 /* Pods-ZebraSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZebraSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B914DF7B5035F41E8068A0CED12AFAE2 /* DiscoveredPrinterNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DiscoveredPrinterNetwork.h; path = ZebraSDK/Classes/DiscoveredPrinterNetwork.h; sourceTree = "<group>"; };
 		BA11F5B96EE60917E26402CAA5815B2F /* Pods-ZebraSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZebraSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CD713253032B0876DBE627E3B1EB3532 /* ZplPrintMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZplPrintMode.h; path = ZebraSDK/Classes/ZplPrintMode.h; sourceTree = "<group>"; };
-		DE249BC40832481E44CD787B1BD5F252 /* MfiBtPrinterConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MfiBtPrinterConnection.h; path = ZebraSDK/Classes/MfiBtPrinterConnection.h; sourceTree = "<group>"; };
 		DEFF759160E959D5C4180D43CDE53C77 /* Pods-ZebraSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZebraSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E5EC33229E67460EF00E54B81D09F547 /* Pods-ZebraSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZebraSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ED155D8567BFB17AAE970BA92A66E393 /* ResponseValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ResponseValidator.h; path = ZebraSDK/Classes/ResponseValidator.h; sourceTree = "<group>"; };
 		EE34215B0C166B76E5AF76C78935551C /* Pods-ZebraSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZebraSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F4BA5AAA164AE59FF017AF748A5ADB2F /* GraphicsUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GraphicsUtil.h; path = ZebraSDK/Classes/GraphicsUtil.h; sourceTree = "<group>"; };
 		F6F3B0230640841AC7AE953DD317013E /* ZebraSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZebraSDK.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,30 +158,30 @@
 		549B69378780D1435D005B6534BFC26E /* ZebraSDK */ = {
 			isa = PBXGroup;
 			children = (
-				7FD744367F1355EF56295A4520E2358E /* DiscoveredPrinter.h */,
-				B914DF7B5035F41E8068A0CED12AFAE2 /* DiscoveredPrinterNetwork.h */,
-				2C35A51D3236F84D0F9C56A77D0AAACE /* FieldDescriptionData.h */,
-				19087FD7FBFEE537CEAC2EE80C8A9E21 /* FileUtil.h */,
-				832F45D1C4DEDBA1DAF39F1551072549 /* FormatUtil.h */,
-				F4BA5AAA164AE59FF017AF748A5ADB2F /* GraphicsUtil.h */,
-				49B3E6BC6048E8E41D0ACDFCCA1A0119 /* MagCardReader.h */,
-				DE249BC40832481E44CD787B1BD5F252 /* MfiBtPrinterConnection.h */,
-				A217BD1235DED78B52EBB6DCA96DF1FC /* NetworkDiscoverer.h */,
-				1A45A01BD9D7D41BC66101488E0731E5 /* PrinterStatus.h */,
-				97D7366E75D80210FC32BB4391761ACD /* PrinterStatusMessages.h */,
-				ED155D8567BFB17AAE970BA92A66E393 /* ResponseValidator.h */,
-				1093B2F572454D1618B937F0E3116784 /* SGD.h */,
-				3041A1395796B277DDA582CD56A48952 /* SmartCardReader.h */,
-				7BE5E5DD15C931A6B245D9E48B7F8F39 /* TcpPrinterConnection.h */,
-				1259A34F10782F765AD3C7BBFA181594 /* ToolsUtil.h */,
-				561377A99CB26B3A16A6E6628C362B74 /* ZebraErrorCode.h */,
-				A7DEF42DABAE57BAACC055674C9DE7A9 /* ZebraPrinter.h */,
-				7405031D60C08DD0549096A9514A0ABF /* ZebraPrinterConnection.h */,
-				9DD7F90373F04B433648E311137ED7DC /* ZebraPrinterFactory.h */,
-				CD713253032B0876DBE627E3B1EB3532 /* ZplPrintMode.h */,
+				3A59271C258B47D7006FD388 /* DiscoveredPrinter.h */,
+				3A592721258B47D8006FD388 /* DiscoveredPrinterNetwork.h */,
+				3A592726258B47D8006FD388 /* FieldDescriptionData.h */,
+				3A59272D258B47D9006FD388 /* FileUtil.h */,
+				3A59271B258B47D7006FD388 /* FormatUtil.h */,
+				3A592724258B47D8006FD388 /* GraphicsUtil.h */,
+				3A59272A258B47D9006FD388 /* MagCardReader.h */,
+				3A59271D258B47D7006FD388 /* MfiBtPrinterConnection.h */,
+				3A592720258B47D8006FD388 /* NetworkDiscoverer.h */,
+				3A59271F258B47D8006FD388 /* PrinterStatus.h */,
+				3A592728258B47D8006FD388 /* PrinterStatusMessages.h */,
+				3A59272B258B47D9006FD388 /* ResponseValidator.h */,
+				3A59272C258B47D9006FD388 /* SGD.h */,
+				3A592729258B47D9006FD388 /* SmartCardReader.h */,
+				3A592727258B47D8006FD388 /* TcpPrinterConnection.h */,
+				3A59272E258B47D9006FD388 /* ToolsUtil.h */,
+				3A592723258B47D8006FD388 /* ZebraErrorCode.h */,
+				3A592722258B47D8006FD388 /* ZebraPrinter.h */,
+				3A59272F258B47D9006FD388 /* ZebraPrinterConnection.h */,
+				3A592725258B47D8006FD388 /* ZebraPrinterFactory.h */,
+				3A59271E258B47D7006FD388 /* ZplPrintMode.h */,
 				4EE41E1D81912670B659A4DECCE58BE9 /* Support Files */,
+				3A592737258B4875006FD388 /* Runner-Bridging-Header.h */,
 			);
-			name = ZebraSDK;
 			path = ZebraSDK;
 			sourceTree = "<group>";
 		};
@@ -302,7 +304,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1220;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -382,7 +384,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -404,7 +406,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ZebraSDK_Tests/Pods-ZebraSDK_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ZebraSDK_Tests/Pods-ZebraSDK_Tests.modulemap";
@@ -475,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -503,7 +505,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ZebraSDK_Example/Pods-ZebraSDK_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ZebraSDK_Example/Pods-ZebraSDK_Example.modulemap";
@@ -536,7 +538,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ZebraSDK_Tests/Pods-ZebraSDK_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ZebraSDK_Tests/Pods-ZebraSDK_Tests.modulemap";
@@ -559,7 +561,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -582,7 +584,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ZebraSDK_Example/Pods-ZebraSDK_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ZebraSDK_Example/Pods-ZebraSDK_Example.modulemap";
@@ -649,13 +651,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
