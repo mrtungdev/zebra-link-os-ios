@@ -1,0 +1,22 @@
+{
+  "name": "ZebraSDK",
+  "version": "0.1.0",
+  "summary": "A short description of ZebraSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/13881055/ZebraSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "13881055": "toilatung@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/13881055/ZebraSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZebraSDK/Classes/**/*"
+}

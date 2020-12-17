@@ -1,0 +1,6 @@
+framework module ZebraSDK {
+  umbrella header "ZebraSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

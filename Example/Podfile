@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZebraSDK_Example' do
+  pod 'ZebraSDK', :path => '../'
+
+  target 'ZebraSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

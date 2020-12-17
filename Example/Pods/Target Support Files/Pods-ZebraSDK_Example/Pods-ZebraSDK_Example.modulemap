@@ -1,0 +1,6 @@
+framework module Pods_ZebraSDK_Example {
+  umbrella header "Pods-ZebraSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
