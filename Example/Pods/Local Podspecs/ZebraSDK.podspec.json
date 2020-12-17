@@ -1,9 +1,9 @@
 {
   "name": "ZebraSDK",
   "version": "0.1.0",
-  "summary": "A short description of ZebraSDK.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/13881055/ZebraSDK",
+  "summary": "Link-OS Multiplatform SDK",
+  "description": "Link-OS Multiplatform SDK",
+  "homepage": "https://github.com/ImTung/zebra-link-os-ios",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "13881055": "toilatung@icloud.com"
   },
   "source": {
-    "git": "https://github.com/13881055/ZebraSDK.git",
+    "git": "https://github.com/ImTung/zebra-link-os-ios.git",
     "tag": "0.1.0"
   },
   "platforms": {
